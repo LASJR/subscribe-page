@@ -26,10 +26,16 @@
 				</p>
 				<div class="form-control">
 					<div class="relative">
-						<input type="text" placeholder="Ваш E-mail"
-							class="w-full pr-16 input lg:input-lg input-primary input-bordered">
-						<button
-							class="absolute top-0 right-0 rounded-l-none btn lg:btn-lg btn-primary">Подписаться</button>
+						<form action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo3NjY2ODQ2LCJhZGRyZXNzX2Jvb2tfaWQiOjI4NDgwMCwibGFuZyI6InJ1In0="
+							method="post">
+							<input type="email" required name="email"
+								placeholder="Ваш E-mail"
+								class="w-full pr-16 input lg:input-lg input-primary input-bordered">
+							<input type="hidden" name="sender"
+								value="info@labanimalsjournal.ru">
+							<button
+								class="absolute top-0 right-0 rounded-l-none btn lg:btn-lg btn-primary">Подписаться</button>
+						</form>
 					</div>
 				</div>
 
